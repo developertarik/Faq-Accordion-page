@@ -33,11 +33,25 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-family: "Kumbh Sans",sans-serif;
     
 }
 .flex-none1,.flex-none2,.flex-none3,.flex-none4,.flex-none5{
     display:none;
+
+}
+.hovered-text{
+    color :hsl(237, 12%, 33%);
+
+}
+.hovered-text:active{
+    color :hsl(237, 12%, 33%);
+
 }
 .hovered-text:hover{
     color: hsl(14, 88%, 65%);
+}
+
+.none{
+    color: hsl(240, 6%, 50%);
 }

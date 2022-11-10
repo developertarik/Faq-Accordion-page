@@ -4,6 +4,7 @@ const flexNonr3 = document.querySelector(".flex-none3");
 const flexNonr4 = document.querySelector(".flex-none4");
 const flexNonr5 = document.querySelector(".flex-none5");
 
+const hovered = document.querySelector(".hovered-text")
 const arrowBtn1 = document.querySelector("#arrow1");
 const arrowBtn2 = document.querySelector("#arrow2");
 const arrowBtn3 = document.querySelector("#arrow3");
@@ -12,6 +13,7 @@ const arrowBtn5 = document.querySelector("#arrow5");
 
 arrowBtn1.addEventListener("click",()=>{
     flexNonr1.style.display = "block";
+    hovered.style.color = "black";
 })
 arrowBtn2.addEventListener("click",()=>{
     flexNonr2.style.display = "block";
