@@ -2,13 +2,37 @@
 
 body{
     font-family: "Kumbh Sans",sans-serif;
-    
+    background-color: hsl(273, 75%, 66%); 
 }
-/*
-    flex-item1{
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 60px;
+   padding-bottom: 30px;
+   padding-top: 50px; 
+   gap:50px;
+
+}
+.flex-item1{
         background-image: url("../images/bg-pattern-desktop.svg");
     }
-*/
+
 h1{
     color:hsl(237, 12%, 33%);
 }
+.box{
+    position: relative;
+    bottom: 180px;
+}
+.flex-item1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
